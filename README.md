@@ -20,5 +20,9 @@ wget "https://filesender.surf.nl/download.php?token=d1cc4a6d-9a9d-45bb-84eb-2791
 For changing the model network change network_variations to an array with values in range 0-2. Linked to the models defined in models.py
 3.	run \AEGNN_reproduction\hyper-pararm-check\execution.ipynb
 ## New algorithm variant
-
-1. create environment from \AEGNN_reproduction\new_algorithm_variant\dl_proj2_environment.yml
+1. create environment from `\AEGNN_reproduction\new_algorithm_variant\dl_proj2_environment.yml`
+2. on linux or MacOS, run the following command to download the dataset: `wget "https://filesender.surf.nl/download.php?token=d1cc4a6d-9a9d-45bb-84eb-2791e53a2a33&files_ids=13325018"` or on windows simply visit the address: `https://filesender.surf.nl/download.php?token=d1cc4a6d-9a9d-45bb-84eb-2791e53a2a33&files_ids=13325018`
+3. unzip the data.zip file in the `new_algorithm_variant` folder
+4. for the simple graph convolution experiment, run the `execution_usingsimple.ipynb` notebook
+5. for the network with all transformer convolutions, to run the hyperparameter search, run `execution_transformer_param_search.ipynb`
+6. for the network with the last two layers being transformer convolutions, run `execution_transformer.ipynb`
