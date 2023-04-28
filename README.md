@@ -7,11 +7,12 @@ wget "https://filesender.surf.nl/download.php?token=d1cc4a6d-9a9d-45bb-84eb-2791
 ```
 
 ## Reproduction
-The code that was used to run the evaluation of the reproduction can be found in the new_data folder under the name "ReproductionEvaluation.ipynb". Be sure to include the N-Calltech101 data in a folder called data in that directory.
-
+1. Download the N-Calltech101 dataset
+2. Create environment from \AEGNN_reproduction\new_data\environment.yml
+3. The code that was used to run the evaluation of the reproduction can be found in the new_data folder under the name "ReproductionEvaluation.ipynb". Be sure to include the N-Calltech101 data in a folder called data in that directory.
 ## New Data
 1. Download the N-Cars dataset from [https://drive.google.com/file/d/1vlByGVjqmyYvbzLSIzZzNLfcjfTJijyz/view?usp=sharing]
-2. Create environment from \AEGNN_reproduction\new_algorithm_variant\dl_proj2_environment.yml
+2. Create environment from \AEGNN_reproduction\new_data\environment.yml
 3. The code that was used to run the evaluation of the reproduction can be found in the new_data folder under the name "EvaluateNCARS.ipynb". Be sure to include the N-Cars data in a folder called data/storage/N-Cars_parsed in the new_data directory.
 ## Hyper Parameters Check
 1.	Create environment from \AEGNN_reproduction\hyper-parameter-check\environment.yml
